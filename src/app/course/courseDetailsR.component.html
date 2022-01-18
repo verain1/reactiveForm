@@ -1,0 +1,42 @@
+<form [formGroup]="frmGroup" (ngSubmit)='saveCourse(frmGroup.value)'>
+  <div class="form-group">
+    <label>Name</label>
+    <input type="text" class="form-control" formControlName="courseName">
+  </div>
+
+  <div class="form-group">
+    <label>ID: </label>
+    <input type="text" class="form-control" formControlName="courseID">
+  </div>
+
+
+  <div class="form-group">
+    <label>Message</label>
+    <textarea type="text" class="form-control" formControlName="courseFee"></textarea>    
+  </div>
+
+  <button class="btn btn-danger btn-block" type="submit">Submit</button>
+</form>
+
+
+
+<hr><hr>
+
+<!-- <form [formGroup]="empGroup" (ngSubmit)='saveEmp(empGroup.value)'>
+    <label>Employee ID: </label>
+    <input type="number" formControlName="EmpID">
+
+    <br><br>
+
+    <label>Emp name: </label>
+    <input type="text" formControlName="EmpName">
+
+    <br><br>
+
+    <label>Emp age: </label>
+    <input type="number" formControlName="EmpAge">
+
+    <br><br>
+    
+    <button type="submit">Submit data</button>
+</form> -->

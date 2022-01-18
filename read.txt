@@ -1,0 +1,22 @@
+Dated: 14-01-2022
+1. Reactive Approach also known as model driven Approach 
+2. To implement this approach we have to include the package ReactiveFormsModule
+3. To implement this approach three/ four classes play a major role.
+    a. FormBuilder: It is special class, supports dependency Injection(Injectible)
+        ->FormBuilder class is having a major method known as group().
+        ->group() helps to create structure or schema of model.
+        ->Since FormBuilder is a injectible class, so we have to pass this class name to constructor
+         parameter to support dependency injection
+    b. FormGroup: It acts as a reference pointer to point structure or model.
+    c. FormControl: It is a binding process in between UI and schema(model).
+    d. Validator: Substitute of JQuery or Javascript for client side validation.
+
+Dated: 14- 01-2022
+
+Sir has made the program of template driven approach with all the major controls
+
+
+What is reactive approach? Write a snippet.
+Ans: 
+
+Machine test: Do take all the major controls with proper validation.
